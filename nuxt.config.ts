@@ -9,7 +9,7 @@ export default defineNuxtConfig({
         {
           name: "description",
           content:
-            "Livraison sur toute l'Ile de France, vos courses à petits prix sur Paris et la Région Parisienne. Coursier Discount.",
+            "Livraison sur toute l'Ile de France, vos courses à petits prix sur Paris et la Région Parisienne. Transporteur coursier-discount.",
         },
       ],
     },
