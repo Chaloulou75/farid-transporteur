@@ -6,7 +6,5 @@
     <AppHeader></AppHeader>
     <AppTarifs></AppTarifs>
     <AppContact></AppContact>
-
-    <!-- <NuxtPage></NuxtPage> -->
   </div>
 </template>

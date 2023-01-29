@@ -170,10 +170,10 @@ const totalPrice = computed(() => {
     </h2>
 
     <div
-      class="flex flex-col items-center justify-around space-y-8 md:flex-row md:space-y-0 md:space-x-24"
+      class="flex flex-col items-start justify-around space-y-8 md:flex-row md:space-y-0 md:space-x-24"
     >
       <div>
-        <p class="text-xl font-semibold uppercase">Enlevement</p>
+        <p class="text-xl font-semibold">Département d'enlevement</p>
         <Listbox v-model="enlevement">
           <div class="relative mt-1">
             <ListboxButton
@@ -232,7 +232,7 @@ const totalPrice = computed(() => {
         </Listbox>
       </div>
       <div>
-        <p class="text-xl font-semibold uppercase">Livraison</p>
+        <p class="text-xl font-semibold">Département de livraison</p>
         <Listbox v-model="livraison">
           <div class="relative mt-1">
             <ListboxButton
@@ -292,7 +292,7 @@ const totalPrice = computed(() => {
       </div>
     </div>
     <div class="my-12">
-      <p class="text-2xl font-semibold uppercase text-gold">
+      <p class="text-2xl font-semibold text-left uppercase text-gold">
         Prix Total: {{ totalPrice }} EUR.
       </p>
     </div>

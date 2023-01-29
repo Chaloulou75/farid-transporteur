@@ -10,7 +10,9 @@
         class="w-full md:w-[50vh] lg:w-[400px] h-auto mx-auto shadow"
       />
     </div>
-    <div class="flex flex-col items-start justify-between mx-auto space-y-6">
+    <div
+      class="flex flex-col items-center justify-between px-2 mx-auto space-y-6 md:items-start"
+    >
       <h1 class="text-3xl font-bold text-gold md:text-5xl max-w-7xl">
         Coursier-discount
       </h1>
