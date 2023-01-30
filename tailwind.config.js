@@ -14,6 +14,9 @@ module.exports = {
         faridblue: "#0028ff",
         gold: "#ffd700",
       },
+      fontFamily: {
+        lobster: ["Lobster"],
+      },
     },
   },
   plugins: [],

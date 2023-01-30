@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col justify-between w-full min-h-screen bg-faridblue text-gold"
+    class="flex flex-col justify-between w-full min-h-screen tracking-widest bg-faridblue text-gold font-lobster"
   >
     <AppNavigation></AppNavigation>
     <AppHeader></AppHeader>

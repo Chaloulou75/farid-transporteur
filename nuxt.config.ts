@@ -22,5 +22,13 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  modules: ["@vite-pwa/nuxt"],
+  modules: ["@vite-pwa/nuxt", "@nuxtjs/google-fonts"],
+  googleFonts: {
+    download: true,
+    preconnect: true,
+    families: {
+      Lobster: true,
+    },
+    display: "swap",
+  },
 });

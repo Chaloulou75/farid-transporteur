@@ -3,7 +3,7 @@ import { AtSymbolIcon, PhoneIcon, ClockIcon } from "@heroicons/vue/24/outline";
 </script>
 <template>
   <div
-    class="flex flex-col items-center justify-start w-full h-auto px-2 pb-24 mx-auto mb-auto md:items-start max-w-7xl md:px-8"
+    class="flex flex-col items-center justify-start w-full h-auto px-2 mx-auto mb-auto pb-36 md:items-start max-w-7xl md:px-8"
   >
     <div class="pt-16 md:pt-24" id="contact"></div>
 
