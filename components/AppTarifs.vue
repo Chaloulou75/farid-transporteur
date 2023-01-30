@@ -161,19 +161,34 @@ const totalPrice = computed(() => {
 </script>
 
 <template>
-  <div class="flex flex-col items-center justify-around mx-auto max-w-7xl">
+  <div
+    class="flex flex-col items-center justify-around w-full mx-auto max-w-7xl"
+  >
     <div class="pt-16 md:pt-24" id="tarifs"></div>
     <h2
-      class="mx-auto mb-8 text-xl font-bold text-center text-gold md:text-6xl max-w-7xl"
+      class="mx-auto mb-8 text-3xl font-bold text-center text-gold md:text-6xl max-w-7xl"
     >
       Tarifs
     </h2>
+    <div class="pb-12">
+      <div
+        class="my-4 text-lg font-semibold text-center text-gold md:text-xl md:mt-8"
+      >
+        Livraisons dans toute l’île de France (grille tarifaire) et dans toute
+        la France sur devis
+      </div>
+      <div
+        class="my-4 text-lg font-semibold text-center text-gold md:text-xl md:mt-8"
+      >
+        <p>Moto ou voiture / colis ou plis.</p>
+      </div>
+    </div>
 
     <div
-      class="flex flex-col items-start justify-around space-y-8 md:flex-row md:space-y-0 md:space-x-24"
+      class="flex flex-col items-start justify-around w-full space-y-8 md:flex-row md:space-y-0 md:space-x-24"
     >
-      <div>
-        <p class="text-xl font-semibold">Département d'enlevement</p>
+      <div class="flex flex-col items-center w-full">
+        <div class="text-xl font-semibold">Département d'enlevement:</div>
         <Listbox v-model="enlevement">
           <div class="relative mt-1">
             <ListboxButton
@@ -196,7 +211,7 @@ const totalPrice = computed(() => {
               leave-to-class="opacity-0"
             >
               <ListboxOptions
-                class="absolute w-48 py-1 mt-1 overflow-auto text-base bg-white rounded-md shadow-lg max-h-60 ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-lg"
+                class="absolute z-20 w-48 py-1 mt-1 overflow-auto text-base bg-white rounded-md shadow-lg max-h-60 ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-lg"
               >
                 <ListboxOption
                   v-slot="{ active, selected }"
@@ -231,8 +246,8 @@ const totalPrice = computed(() => {
           </div>
         </Listbox>
       </div>
-      <div>
-        <p class="text-xl font-semibold">Département de livraison</p>
+      <div class="flex flex-col items-center w-full">
+        <div class="text-xl font-semibold">Département de livraison:</div>
         <Listbox v-model="livraison">
           <div class="relative mt-1">
             <ListboxButton
@@ -255,7 +270,7 @@ const totalPrice = computed(() => {
               leave-to-class="opacity-0"
             >
               <ListboxOptions
-                class="absolute w-48 py-1 mt-1 overflow-auto text-base bg-white rounded-md shadow-lg max-h-60 ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-lg"
+                class="absolute z-20 w-48 py-1 mt-1 overflow-auto text-base bg-white rounded-md shadow-lg max-h-60 ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-lg"
               >
                 <ListboxOption
                   v-slot="{ active, selected }"
@@ -292,8 +307,9 @@ const totalPrice = computed(() => {
       </div>
     </div>
     <div class="my-12">
-      <p class="text-2xl font-semibold text-left uppercase text-gold">
-        Prix Total: {{ totalPrice }} EUR.
+      <p class="text-xl font-semibold text-left text-gold">
+        Prix Total:
+        <span class="text-2xl text-black"> {{ totalPrice }} </span> EUR.
       </p>
     </div>
   </div>
