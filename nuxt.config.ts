@@ -28,6 +28,7 @@ export default defineNuxtConfig({
     preconnect: true,
     families: {
       Lobster: true,
+      Montserrat : true,
     },
     display: "swap",
   },
