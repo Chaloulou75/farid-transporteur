@@ -29,13 +29,13 @@ const navigation = [
           class="flex items-center justify-center flex-1 md:items-stretch md:justify-between"
         >
           <div class="flex items-center flex-shrink-0">
-            <a
-              href="/"
-              class="flex flex-col items-center text-2xl font-medium text-gold hover:text-gray-800"
+            <NuxtLink
+              to="/"
+              class="flex flex-col items-center text-lg font-medium md:text-2xl text-gold hover:text-gray-500"
             >
               <span>coursier-discount</span>
               <span class="text-base">Livraison sur toute l'Ile de France</span>
-            </a>
+            </NuxtLink>
           </div>
           <div class="hidden md:ml-6 md:block">
             <div class="flex py-2 space-x-5">
@@ -43,7 +43,7 @@ const navigation = [
                 v-for="item in navigation"
                 :key="item.name"
                 :href="item.href"
-                class="px-3 py-2 text-xl font-medium rounded-md active:shadow hover:shadow active:scale-[0.97]"
+                class="px-3 py-2 text-xl font-medium rounded-md hover:text-gray-500 active:shadow hover:shadow active:scale-[0.97]"
                 >{{ item.name }}</a
               >
             </div>
