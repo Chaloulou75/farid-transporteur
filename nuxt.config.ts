@@ -9,8 +9,29 @@ export default defineNuxtConfig({
         {
           name: "description",
           content:
-            "Livraison sur toute l'Ile de France, vos courses à petits prix sur Paris et la Région Parisienne. Transporteur coursier-discount.",
+            ", Vos courses à petits prix sur Paris et la Région Parisienne. Livraison sur toute l'Ile de France. Transporteur coursier-discount.",
         },
+      ],
+      link: [
+        { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+        {
+          rel: "apple-touch-icon",
+          sizes: "180x180",
+          href: "/apple-touch-icon.png",
+        },
+        {
+          rel: "icon",
+          type: "image/png",
+          sizes: "32x32",
+          href: "/favicon-32x32.png",
+        },
+        {
+          rel: "icon",
+          type: "image/png",
+          sizes: "16x16",
+          href: "/favicon-16x16.png",
+        },
+        { rel: "manifest", href: "/site.webmanifest" },
       ],
     },
     pageTransition: { name: "page", mode: "out-in" },
@@ -28,7 +49,7 @@ export default defineNuxtConfig({
     preconnect: true,
     families: {
       Lobster: true,
-      Montserrat : true,
+      Montserrat: true,
     },
     display: "swap",
   },
