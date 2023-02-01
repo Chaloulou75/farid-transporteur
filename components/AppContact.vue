@@ -8,7 +8,7 @@ import { AtSymbolIcon, PhoneIcon, ClockIcon } from "@heroicons/vue/24/outline";
     <div class="pt-16 md:pt-24" id="contact"></div>
 
     <h2
-      class="mx-auto mb-8 text-3xl font-bold text-center text-gold md:text-6xl"
+      class="mx-auto mb-8 text-3xl font-bold text-center text-gold md:text-6xl font-lobster"
     >
       Contact
     </h2>

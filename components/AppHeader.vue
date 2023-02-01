@@ -3,7 +3,7 @@
     class="flex flex-col items-center justify-around py-8 mx-auto md:py-16 md:flex-row max-w-7xl"
   >
     <h1
-      class="block mt-4 mb-8 text-3xl font-bold text-center md:text-left text-gold md:text-5xl max-w-7xl md:hidden"
+      class="block mt-4 mb-8 text-3xl font-bold text-center md:text-left text-gold md:text-5xl max-w-7xl md:hidden font-lobster"
     >
       Coursier-discount
     </h1>
@@ -19,7 +19,7 @@
       class="flex flex-col items-center justify-between px-2 mx-auto space-y-6 md:items-start"
     >
       <h1
-        class="hidden text-3xl font-bold text-center md:text-left text-gold md:text-5xl max-w-7xl md:block"
+        class="hidden text-3xl font-bold text-center md:text-left text-gold md:text-5xl max-w-7xl md:block font-lobster"
       >
         Coursier-discount
       </h1>

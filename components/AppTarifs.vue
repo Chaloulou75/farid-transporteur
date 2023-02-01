@@ -166,7 +166,7 @@ const totalPrice = computed(() => {
   >
     <div class="pt-16 md:pt-24" id="tarifs"></div>
     <h2
-      class="mx-auto mb-8 text-3xl font-bold text-center text-gold md:text-6xl max-w-7xl"
+      class="mx-auto mb-8 text-3xl font-bold text-center text-gold md:text-6xl max-w-7xl font-lobster"
     >
       Tarifs
     </h2>

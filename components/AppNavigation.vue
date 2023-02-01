@@ -33,7 +33,7 @@ const navigation = [
               to="/"
               class="flex flex-col items-center text-lg font-medium md:text-2xl text-gold hover:text-white"
             >
-              <span>coursier-discount</span>
+              <span class="font-lobster">coursier-discount</span>
               <span class="text-base">Livraison sur toute l'Ile de France</span>
             </NuxtLink>
           </div>
@@ -43,7 +43,7 @@ const navigation = [
                 v-for="item in navigation"
                 :key="item.name"
                 :href="item.href"
-                class="px-3 py-2 text-xl font-medium rounded-md hover:text-white active:shadow hover:shadow active:scale-[0.97]"
+                class="px-3 py-2 text-xl font-semibold font-lobster rounded-md hover:text-white active:shadow hover:shadow active:scale-[0.97]"
                 >{{ item.name }}</a
               >
             </div>
