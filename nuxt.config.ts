@@ -50,6 +50,7 @@ export default defineNuxtConfig({
     families: {
       Lobster: true,
       Montserrat: true,
+      Oswald: true,
     },
     display: "swap",
   },

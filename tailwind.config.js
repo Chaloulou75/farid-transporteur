@@ -17,6 +17,7 @@ module.exports = {
       fontFamily: {
         lobster: ["Lobster"],
         montserrat: ["Montserrat"],
+        oswald: ["Oswald"],
       },
     },
   },

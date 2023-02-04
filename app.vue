@@ -2,7 +2,7 @@ import AppFooter from './components/AppFooter.vue';
 
 <template>
   <div
-    class="flex flex-col justify-between w-full min-h-screen bg-faridblue text-gold font-montserrat"
+    class="flex flex-col justify-between w-full min-h-screen bg-faridblue text-gold font-oswald"
   >
     <AppNavigation />
     <NuxtPage />
