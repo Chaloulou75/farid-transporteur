@@ -9,11 +9,10 @@
     </h1>
     <div class="mb-6 text-lg text-justify text-gold">
       <p>
-        Raison sociale : Coursier Discount<br />
-        Forme juridique : <br />
-        SIRET: <br />
-        Responsable de la publication : Coursier Discount <br />
-        Adresse : <br />
+        Nom de société : pliscolis<br />
+        SIREN: 808940563<br />
+        Responsable de la publication : Kaci Farid <br />
+        Adresse : 95 avenue du président Wilson 93100 Montreuil <br />
         Developpeur Web :
         <a
           href="https://charles-jeandey.com"
