@@ -36,14 +36,18 @@ export default defineNuxtConfig({
     },
     pageTransition: { name: "page", mode: "out-in" },
   },
+
   css: ["~/assets/css/tailwind.css"],
+
   postcss: {
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
     },
   },
+
   modules: ["@vite-pwa/nuxt", "@nuxtjs/google-fonts"],
+
   googleFonts: {
     download: true,
     preconnect: true,
@@ -54,4 +58,6 @@ export default defineNuxtConfig({
     },
     display: "swap",
   },
+
+  compatibilityDate: "2025-01-08",
 });
