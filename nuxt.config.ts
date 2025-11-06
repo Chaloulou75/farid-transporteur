@@ -46,7 +46,7 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ["@vite-pwa/nuxt", "@nuxtjs/google-fonts"],
+  modules: ["@vite-pwa/nuxt", "@nuxtjs/google-fonts", "nuxt-security"],
 
   googleFonts: {
     download: true,
