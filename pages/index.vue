@@ -2,8 +2,11 @@
 
 <template>
   <div>
-    <AppHeader></AppHeader>
-    <AppTarifs></AppTarifs>
-    <AppContact></AppContact>
+    <AppHeader />
+    <AppServices />
+    <AppTarifs />
+    <AppZones />
+    <AppFaq />
+    <AppContact />
   </div>
 </template>

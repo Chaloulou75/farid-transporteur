@@ -5,5 +5,10 @@
 @layer base {
   html {
     @apply scroll-smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    padding-bottom: env(safe-area-inset-bottom);
   }
 }

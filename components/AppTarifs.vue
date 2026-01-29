@@ -162,7 +162,7 @@ const totalPrice = computed(() => {
 
 <template>
   <div
-    class="flex flex-col items-center justify-around w-full mx-auto max-w-7xl"
+    class="flex flex-col items-center justify-around w-full px-4 mx-auto max-w-7xl md:px-8"
   >
     <div class="pt-16 md:pt-24" id="tarifs"></div>
     <h2
@@ -306,10 +306,13 @@ const totalPrice = computed(() => {
         </Listbox>
       </div>
     </div>
-    <div class="my-12">
-      <p class="text-xl font-semibold text-left text-gold">
+    <div class="my-12 p-6 bg-gold bg-opacity-10 rounded-xl border-2 border-gold">
+      <p class="text-xl font-semibold text-center text-gold">
         Prix Total:
-        <span class="text-2xl text-black"> {{ totalPrice }} </span> EUR.
+        <span class="block text-4xl md:text-5xl text-gold font-bold mt-2">
+          {{ totalPrice }}
+          <span v-if="totalPrice !== 'contactez nous!'" class="text-2xl">€</span>
+        </span>
       </p>
     </div>
   </div>

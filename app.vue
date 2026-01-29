@@ -1,5 +1,3 @@
-import AppFooter from './components/AppFooter.vue';
-
 <template>
   <div
     class="flex flex-col justify-between w-full min-h-screen bg-faridblue text-gold font-oswald"
@@ -7,6 +5,7 @@ import AppFooter from './components/AppFooter.vue';
     <AppNavigation />
     <NuxtPage />
     <AppFooter />
+    <AppFloatingCta />
   </div>
 </template>
 

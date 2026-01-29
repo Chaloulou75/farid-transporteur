@@ -1,3 +1,11 @@
+<script setup>
+useSeoMeta({
+    title: "Mentions légales - Coursier Discount",
+    description:
+        "Mentions légales du site Coursier Discount. Informations sur la société pliscolis, propriété intellectuelle, cookies et conditions d'utilisation.",
+});
+</script>
+
 <template>
   <div
     class="flex flex-col items-center justify-start w-full h-auto px-2 py-8 mx-auto mb-auto max-w-7xl md:px-8 md:items-start"
