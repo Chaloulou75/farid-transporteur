@@ -170,23 +170,23 @@ const swapLocations = () => {
 
 <template>
   <div
-    class="flex flex-col items-center justify-around w-full px-4 mx-auto max-w-7xl md:px-8"
+    class="flex flex-col items-center justify-around w-full px-6 mx-auto max-w-7xl md:px-12"
   >
-    <div class="pt-16 md:pt-24" id="tarifs"></div>
+    <div class="pt-20 md:pt-28" id="tarifs"></div>
     <h2
-      class="mx-auto mb-8 text-3xl font-bold text-center text-gold md:text-6xl max-w-7xl font-lobster"
+      class="mx-auto mb-10 text-3xl font-bold text-center text-gold md:text-6xl max-w-7xl font-lobster tracking-widest"
     >
       Tarifs
     </h2>
-    <div class="pb-8">
+    <div class="pb-10">
       <div
-        class="my-4 text-lg font-semibold text-center text-gold md:text-xl md:mt-8"
+        class="my-4 text-lg font-semibold text-center text-gold md:text-xl md:mt-8 tracking-wide"
       >
         Livraisons dans toute l'île de France (grille tarifaire) et dans toute
         la France sur devis
       </div>
       <div
-        class="my-4 text-lg font-semibold text-center text-gold md:text-xl md:mt-8"
+        class="my-4 text-lg font-semibold text-center text-gold md:text-xl md:mt-8 tracking-wide"
       >
         <p>Moto ou voiture / colis ou plis.</p>
       </div>

@@ -168,15 +168,15 @@ const zones = [
 
 <template>
     <div
-        class="flex flex-col items-center justify-start w-full px-4 mx-auto max-w-7xl md:px-8"
+        class="flex flex-col items-center justify-start w-full px-6 mx-auto max-w-7xl md:px-12"
     >
-        <div class="pt-16 md:pt-24" id="zones"></div>
+        <div class="pt-20 md:pt-28" id="zones"></div>
         <h2
-            class="mx-auto mb-8 text-3xl font-bold text-center text-gold md:text-6xl font-lobster"
+            class="mx-auto mb-10 text-3xl font-bold text-center text-gold md:text-6xl font-lobster tracking-widest"
         >
             Zones desservies
         </h2>
-        <p class="text-center text-gold text-lg md:text-xl max-w-3xl mb-12">
+        <p class="text-center text-gold text-lg md:text-xl max-w-3xl mb-14">
             Notre service de coursier couvre l'ensemble de l'Ile-de-France.
             Livraison express dans tous les départements franciliens : Paris et
             petite couronne, grande couronne.

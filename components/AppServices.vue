@@ -36,15 +36,15 @@ const services = [
 
 <template>
     <div
-        class="flex flex-col items-center justify-start w-full px-4 mx-auto max-w-7xl md:px-8"
+        class="flex flex-col items-center justify-start w-full px-6 mx-auto max-w-7xl md:px-12"
     >
-        <div class="pt-16 md:pt-24" id="services"></div>
+        <div class="pt-20 md:pt-28" id="services"></div>
         <h2
-            class="mx-auto mb-8 text-3xl font-bold text-center text-gold md:text-6xl font-lobster"
+            class="mx-auto mb-10 text-3xl font-bold text-center text-gold md:text-6xl font-lobster tracking-widest"
         >
             Nos services
         </h2>
-        <p class="text-center text-gold text-lg md:text-xl max-w-3xl mb-12">
+        <p class="text-center text-gold text-lg md:text-xl max-w-3xl mb-14">
             Coursier Discount, votre partenaire de confiance pour toutes vos
             livraisons urgentes à Paris et en Ile-de-France. Un service
             professionnel, rapide et économique.
@@ -61,7 +61,7 @@ const services = [
                     :is="service.icon"
                     class="w-12 h-12 text-gold mb-4"
                 />
-                <h3 class="text-xl font-semibold text-gold mb-3 font-lobster">
+                <h3 class="text-xl font-semibold text-gold mb-4 font-lobster tracking-wider">
                     {{ service.title }}
                 </h3>
                 <p class="text-gold text-center md:text-left">
