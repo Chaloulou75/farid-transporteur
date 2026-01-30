@@ -10,16 +10,16 @@ import {
 import { CheckIcon, ChevronUpDownIcon } from "@heroicons/vue/20/solid";
 
 const departments = [
-  { name: "Paris" },
-  { name: "91" },
-  { name: "92" },
-  { name: "93" },
-  { name: "94" },
-  { name: "95" },
-  { name: "77 A" },
-  { name: "77 B" },
-  { name: "78 A" },
-  { name: "78 B" },
+  { name: "Paris", label: "Paris (75)" },
+  { name: "91", label: "Essonne (91)" },
+  { name: "92", label: "Hauts-de-Seine (92)" },
+  { name: "93", label: "Seine-Saint-Denis (93)" },
+  { name: "94", label: "Val-de-Marne (94)" },
+  { name: "95", label: "Val-d'Oise (95)" },
+  { name: "77 A", label: "Seine-et-Marne - Zone A (77)" },
+  { name: "77 B", label: "Seine-et-Marne - Zone B (77)" },
+  { name: "78 A", label: "Yvelines - Zone A (78)" },
+  { name: "78 B", label: "Yvelines - Zone B (78)" },
 ];
 const enlevement = ref(departments[0]);
 const livraison = ref(departments[0]);
@@ -192,9 +192,9 @@ const totalPrice = computed(() => {
         <Listbox v-model="enlevement">
           <div class="relative mt-1">
             <ListboxButton
-              class="relative w-48 py-2 pl-3 pr-10 font-semibold text-left text-black bg-white rounded-lg shadow-md cursor-default focus:outline-none focus-visible:border-gray-500 focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 focus-visible:ring-offset-2 focus-visible:ring-offset-gold sm:text-lg"
+              class="relative w-72 py-2 pl-3 pr-10 font-semibold text-left text-black bg-white rounded-lg shadow-md cursor-default focus:outline-none focus-visible:border-gray-500 focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 focus-visible:ring-offset-2 focus-visible:ring-offset-gold sm:text-lg"
             >
-              <span class="block">{{ enlevement.name }}</span>
+              <span class="block truncate">{{ enlevement.label }}</span>
               <span
                 class="absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none"
               >
@@ -211,7 +211,7 @@ const totalPrice = computed(() => {
               leave-to-class="opacity-0"
             >
               <ListboxOptions
-                class="absolute z-20 w-48 py-1 mt-1 overflow-auto text-base bg-white rounded-md shadow-lg max-h-60 ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-lg"
+                class="absolute z-20 w-72 py-1 mt-1 overflow-auto text-base bg-white rounded-md shadow-lg max-h-60 ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-lg"
               >
                 <ListboxOption
                   v-slot="{ active, selected }"
@@ -231,7 +231,7 @@ const totalPrice = computed(() => {
                         selected ? 'font-medium' : 'font-normal',
                         'block',
                       ]"
-                      >{{ department.name }}</span
+                      >{{ department.label }}</span
                     >
                     <span
                       v-if="selected"
@@ -251,9 +251,9 @@ const totalPrice = computed(() => {
         <Listbox v-model="livraison">
           <div class="relative mt-1">
             <ListboxButton
-              class="relative w-48 py-2 pl-3 pr-10 font-semibold text-left text-black bg-white rounded-lg shadow-md cursor-default focus:outline-none focus-visible:border-gray-500 focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 focus-visible:ring-offset-2 focus-visible:ring-offset-gold sm:text-lg"
+              class="relative w-72 py-2 pl-3 pr-10 font-semibold text-left text-black bg-white rounded-lg shadow-md cursor-default focus:outline-none focus-visible:border-gray-500 focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 focus-visible:ring-offset-2 focus-visible:ring-offset-gold sm:text-lg"
             >
-              <span class="block truncate">{{ livraison.name }}</span>
+              <span class="block truncate">{{ livraison.label }}</span>
               <span
                 class="absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none"
               >
@@ -270,7 +270,7 @@ const totalPrice = computed(() => {
               leave-to-class="opacity-0"
             >
               <ListboxOptions
-                class="absolute z-20 w-48 py-1 mt-1 overflow-auto text-base bg-white rounded-md shadow-lg max-h-60 ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-lg"
+                class="absolute z-20 w-72 py-1 mt-1 overflow-auto text-base bg-white rounded-md shadow-lg max-h-60 ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-lg"
               >
                 <ListboxOption
                   v-slot="{ active, selected }"
@@ -288,9 +288,9 @@ const totalPrice = computed(() => {
                     <span
                       :class="[
                         selected ? 'font-medium' : 'font-normal',
-                        'block truncate',
+                        'block',
                       ]"
-                      >{{ department.name }}</span
+                      >{{ department.label }}</span
                     >
                     <span
                       v-if="selected"
