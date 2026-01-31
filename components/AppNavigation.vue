@@ -10,8 +10,8 @@ const navigation = [
   { name: "Contact", href: "/#contact" },
 ];
 
-const phoneNumber = "06 17 43 89 73";
-const phoneHref = "tel:+33617438973";
+const phoneNumber = "06 33 07 75 85";
+const phoneHref = "tel:+33633077585";
 </script>
 
 <template>

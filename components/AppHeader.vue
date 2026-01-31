@@ -105,7 +105,7 @@ const stats = [
           class="flex flex-col sm:flex-row items-center gap-4 pt-4 w-full sm:w-auto"
         >
           <a
-            href="tel:+33617438973"
+            href="tel:+33633077585"
             class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 text-lg font-bold bg-gold text-faridblue rounded-full hover:bg-white transition-all duration-300 shadow-lg shadow-gold/20 hover:shadow-xl hover:scale-105"
           >
             <svg
