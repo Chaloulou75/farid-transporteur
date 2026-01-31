@@ -35,10 +35,10 @@ import { AtSymbolIcon, PhoneIcon, ClockIcon } from "@heroicons/vue/24/outline";
           06 17 43 89 73
         </a>
         <a
-          href="tel:+33768382248"
+          href="tel:+33633077585"
           class="text-lg font-medium text-gold md:text-xl flex items-center hover:text-white transition-colors pl-9"
         >
-          07 68 38 22 48
+          06 33 07 75 85
         </a>
       </div>
       <p class="w-full text-lg font-medium text-center text-gold md:text-xl pt-2">

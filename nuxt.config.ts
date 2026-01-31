@@ -36,7 +36,7 @@ export default defineNuxtConfig({
                         description:
                             "Service de coursier et livraison express à petits prix sur Paris et toute l'Ile-de-France. Livraison de colis et plis en moto ou voiture.",
                         url: "https://www.coursier-discount.com",
-                        telephone: ["+33617438973", "+33768382248"],
+                        telephone: ["+33617438973", "+33633077585"],
                         email: "eva.tallec75@gmail.com",
                         address: {
                             "@type": "PostalAddress",
